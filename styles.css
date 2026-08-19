@@ -1,6 +1,4 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-size: 12px;
   font-family: "Times New Roman", Times, serif;
@@ -92,7 +90,7 @@ a.background-images:active {
   transform: scale(1.2);
 }
 
-.back-home {
+.back-home, .back-section {
   display: block;
   border: 1px solid black;
   width: 20%;
@@ -106,12 +104,30 @@ a.background-images:active {
   transition: all 1s ease;
 }
 
-.back-home:hover {
+.back-home:hover, .back-section:hover {
   transform: scale(1.2);
   background-color: rgb(119, 96, 67);
 }
 
-.back-home:active {
+.back-home:active, .back-section:active {
   background-color: rgb(49, 40, 30);
   color: white;
+}
+
+
+/*Plates section*/
+img {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+li{
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px;
 }
