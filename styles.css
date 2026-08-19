@@ -67,14 +67,14 @@ a.background-images:active {
 .introduction {
   font-size: 1.5rem;
   color: rgb(75, 66, 66);
-  text-align: justify;
+  text-align: center;
   margin: 20px auto;
   padding: 20px;
 }
 
 .plates {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 20px;
   margin: 20px;
 }
@@ -106,12 +106,12 @@ a.background-images:active {
   transition: all 1s ease;
 }
 
-.back-home:hover{
-transform: scale(1.2);
-background-color: rgb(119, 96, 67);
+.back-home:hover {
+  transform: scale(1.2);
+  background-color: rgb(119, 96, 67);
 }
 
-.back-home:active{
+.back-home:active {
   background-color: rgb(49, 40, 30);
   color: white;
 }
