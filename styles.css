@@ -91,6 +91,7 @@ a.background-images:active {
 }
 
 .back-home, .back-section {
+  font-size: 225%;
   display: block;
   border: 1px solid black;
   width: 20%;
