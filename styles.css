@@ -17,16 +17,16 @@
 
 
 .background-images{
-    width: 100%;
-    height: 1000px;
-    background-size: cover;
-    background-position: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    margin: 10px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin: 25px 0;
     border: 1px solid black;
-    
+    transition: 0.5s ease;
 }
 
 #linked-soups{
@@ -46,5 +46,15 @@ a {
     color: bisque;
     background-color: transparent;
     text-decoration: none;
+}
+
+a:hover{
+    filter: brightness(0.7);
+    transform: scale(1.1);
+    transition: 0.5 ease;
+}
+
+a:active{
+    transform: scale(1.2);
 }
 
